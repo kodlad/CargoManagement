@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Темная панель и шапка -->
+    <Color x:Key="PrimaryDarkColor">#0E3A35</Color>
+    <Color x:Key="PrimaryColor">#114F44</Color>
+
+    <!-- Фон контента -->
+    <Color x:Key="BackgroundColor">#FDFDFD</Color>
+
+    <!-- Статусы -->
+    <Color x:Key="StatusPlannedColor">#2D9CDB</Color>
+    <Color x:Key="StatusOnRouteColor">#27AE60</Color>
+    <Color x:Key="StatusCompletedColor">#56CCF2</Color>
+
+    <!-- Преобразования в Brush -->
+    <SolidColorBrush x:Key="PrimaryDarkBrush" Color="{StaticResource PrimaryDarkColor}" />
+    <SolidColorBrush x:Key="PrimaryBrush"     Color="{StaticResource PrimaryColor}" />
+    <SolidColorBrush x:Key="BackgroundBrush"  Color="{StaticResource BackgroundColor}" />
+
+    <SolidColorBrush x:Key="PlannedBrush"     Color="{StaticResource StatusPlannedColor}" />
+    <SolidColorBrush x:Key="OnRouteBrush"     Color="{StaticResource StatusOnRouteColor}" />
+    <SolidColorBrush x:Key="CompletedBrush"   Color="{StaticResource StatusCompletedColor}" />
+
+</ResourceDictionary>
